@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  min-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.title {
+  font-size: 17px;
+  margin-bottom: 4px;
+  color: #000;
+}

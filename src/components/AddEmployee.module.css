@@ -1,0 +1,73 @@
+.addEmployees {
+  max-width: 720px;
+  margin: 10px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+h2 {
+  grid-column: 1 / -1;
+  margin-bottom: 12px;
+  color: black;
+  text-align: center;
+}
+
+.card {
+  padding: 8px;
+}
+
+.addEmployees h2 {
+  grid-column: 1 / -1;
+  margin: 0 0 8px 0;
+}
+
+.addEmployees label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.addEmployees input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.addEmployees button[type="submit"] {
+  grid-column: 1 / 2;
+}
+
+.addEmployees button[type="reset"] {
+  grid-column: 2 / 3;
+}
+
+.addEmployees button {
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #1f6feb;
+  color: white;
+  cursor: pointer;
+}
+
+.addEmployees button[type="reset"] {
+  background: #777;
+}
+
+/* mobile */
+@media (max-width: 640px) {
+  .addEmployees {
+    grid-template-columns: 1fr;
+  }
+  .addEmployees button[type="submit"],
+  .addEmployees button[type="reset"] {
+    grid-column: 1 / -1;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.header h1 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: underline;
+}

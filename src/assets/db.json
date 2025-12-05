@@ -1,0 +1,192 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "title": "Software Engineer",
+      "salary": 72000,
+      "phone": "+358-40-123-4567",
+      "email": "alice.johnson@example.com",
+      "animal": "Cat",
+      "startDate": "2021-03-15",
+      "location": "Helsinki",
+      "department": "Engineering",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Markus Niemi",
+      "title": "UX Designer",
+      "salary": 6000,
+      "phone": "+358-50-987-6543",
+      "email": "markus.niemi@example.com",
+      "animal": "Dog",
+      "startDate": "2020-08-01",
+      "location": "Espoo",
+      "department": "Design",
+      "skills": [
+        "Figma",
+        "UI Design",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sara Virtanen",
+      "title": "Project Manager",
+      "salary": 82000,
+      "phone": "+358-44-222-1111",
+      "email": "sara.virtanen@example.com",
+      "animal": "Owl",
+      "startDate": "2019-05-20",
+      "location": "Tampere",
+      "department": "Management",
+      "skills": [
+        "Leadership",
+        "Agile",
+        "Scrum"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "John Smith",
+      "title": "Data Analyst",
+      "salary": 70000,
+      "phone": "+358-40-555-7788",
+      "email": "john.smith@example.com",
+      "animal": "Rabbit",
+      "startDate": "2022-01-10",
+      "location": "Helsinki",
+      "department": "Analytics",
+      "skills": [
+        "Python",
+        "SQL",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Emma Laine",
+      "title": "Marketing Specialist",
+      "salary": 60000,
+      "phone": "+358-45-666-7777",
+      "email": "emma.laine@example.com",
+      "animal": "Fox",
+      "startDate": "2020-11-05",
+      "location": "Turku",
+      "department": "Marketing",
+      "skills": [
+        "SEO",
+        "Content Writing",
+        "Social Media"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "David Brown",
+      "title": "HR Manager",
+      "salary": 75000,
+      "phone": "+358-41-333-4444",
+      "email": "david.brown@example.com",
+      "animal": "Dog",
+      "startDate": "2018-04-23",
+      "location": "Helsinki",
+      "department": "Human Resources",
+      "skills": [
+        "Recruiting",
+        "Conflict Resolution",
+        "Communication"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Laura Korhonen",
+      "title": "Front-End Developer",
+      "salary": 68000,
+      "phone": "+358-40-222-3333",
+      "email": "laura.korhonen@example.com",
+      "animal": "Panda",
+      "startDate": "2023-02-14",
+      "location": "Oulu",
+      "department": "Engineering",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Vue.js"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Peter Wilson",
+      "title": "System Administrator",
+      "salary": 71000,
+      "phone": "+358-50-777-8888",
+      "email": "peter.wilson@example.com",
+      "animal": "Eagle",
+      "startDate": "2017-09-19",
+      "location": "Espoo",
+      "department": "IT",
+      "skills": [
+        "Linux",
+        "Networking",
+        "Security"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Mia Räsänen",
+      "title": "Customer Support Lead",
+      "salary": 58000,
+      "phone": "+358-45-111-2222",
+      "email": "mia.rasanen@example.com",
+      "animal": "Dolphin",
+      "startDate": "2021-06-30",
+      "location": "Helsinki",
+      "department": "Support",
+      "skills": [
+        "CRM",
+        "Problem Solving",
+        "Communication"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Tom Eriksson",
+      "title": "QA Engineer",
+      "salary": 69000,
+      "phone": "+358-44-999-0000",
+      "email": "tom.eriksson@example.com",
+      "animal": "Tiger",
+      "startDate": "2019-12-12",
+      "location": "Tampere",
+      "department": "Quality Assurance",
+      "skills": [
+        "Testing",
+        "Automation",
+        "Jest"
+      ]
+    },
+    {
+      "id": "bc1d",
+      "name": "jykgsdfu",
+      "title": "",
+      "salary": 200,
+      "phone": "",
+      "email": "",
+      "animal": "dcds",
+      "startDate": "",
+      "location": "Espoo",
+      "department": "Design",
+      "skills": [
+        "Figma",
+        "UI Design",
+        "Prototyping"
+      ],
+      "isFavourite": false
+    }
+  ]
+}

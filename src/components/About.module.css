@@ -1,0 +1,44 @@
+.aboutContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.7;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.aboutContainer h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+  text-align: center;
+}
+
+.aboutContainer p {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #444;
+}
+
+/* subtle card background */
+.aboutContainer {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* mobile optimization */
+@media (max-width: 600px) {
+  .about-page {
+    padding: 25px 15px;
+  }
+
+  .about-page h1 {
+    font-size: 1.7rem;
+  }
+
+  .about-page p {
+    font-size: 1rem;
+  }
+}
