@@ -1,7 +1,19 @@
 import { useState } from "react";
 import axios from "axios";
 import styles from "./Card.module.css";
-import animalEmojis from "../assets/animalEmojis.json";
+
+const animalEmojis = {
+  Owl: "🦉",
+  Wolf: "🐺",
+  Fox: "🦊",
+  Hawk: "🦅",
+  Cat: "🐈",
+  Dog: "🐕",
+  Dolphin: "🐬",
+  Bear: "🐻",
+  Rabbit: "🐇",
+  Eagle: "🦅",
+};
 
 import DeleteIcon from "@mui/icons-material/Delete";
 import Button from "@mui/material/Button";
