@@ -5,9 +5,38 @@ import styles from "./Personlist.module.css";
 import Button from "@mui/material/Button";
 import axios from "axios";
 
+import AddEmployee from "./AddEmployee.jsx";
+
 function Home() {
+  const [formData, setFormData] = useState({
+    name: "",
+    title: "",
+    salary: "",
+    phone: "",
+    email: "",
+    animal: "",
+    startDate: "",
+    location: "",
+    department: "",
+    skills: "",
+  });
+
   const [employees, setEmployees] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const handleClick = () => {
+    axios
+      .post("https://hr-app-sws8.onrender.com/employees", {
+        ...formData,
+        skills: formData.skills
+          ? formData.skills.split(",").map((s) => s.trim())
+          : [],
+        isFavourite: false,
+      })
+      .then((response) => {
+        setEmployees([...employees, response.data]);
+      });
+  };
 
   const handleDeleteEmployee = (id) => {
     axios

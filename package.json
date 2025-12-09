@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://iflix0fox.github.io/HR-APP/",
+  "homepage": "https://iflix0fox.github.io/",
   "scripts": {
     "dev": "vite",
     "server": "json-server --watch src/assets/db.json --port 3001",

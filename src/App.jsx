@@ -4,6 +4,7 @@ import About from "./components/About";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Layout from "./Layout";
 import ErrorPage from "./components/ErrorPage";
+import AddEmployee from "./components/AddEmployee";
 
 function App() {
   // const [formData, setFormData] = useState({
@@ -82,16 +83,10 @@ function App() {
           index: true,
           element: <Home />,
         },
-        // {
-        //   path: "/add-employee",
-        //   element: (
-        //     <AddEmployee
-        //       formData={formData}
-        //       setFormData={setFormData}
-        //       handleClick={handleClick}
-        //     />
-        //   ),
-        // },
+        {
+          path: "/add-employee",
+          element: <AddEmployee />,
+        },
         {
           path: "/about",
           element: <About />,

@@ -1,6 +1,21 @@
+import { useState } from "react";
 import styles from "./AddEmployee.module.css";
+import axios from "axios";
 
-function AddEmployee({ formData, setFormData, handleClick }) {
+function AddEmployee() {
+  const [formData, setFormData] = useState({
+    name: "",
+    title: "",
+    salary: "",
+    phone: "",
+    email: "",
+    animal: "",
+    startDate: "",
+    location: "",
+    department: "",
+    skills: "",
+  });
+
   const handleChange = (e) => {
     setFormData((prevState) => {
       return { ...prevState, [e.target.name]: e.target.value };
@@ -13,8 +28,15 @@ function AddEmployee({ formData, setFormData, handleClick }) {
       ...formData,
       skills: formData.skills.split(",").map((skill) => skill.trim()),
     };
-    handleClick(employeeData);
     console.log(employeeData);
+
+    axios.post("https://hr-app-sws8.onrender.com/employees", {
+      ...formData,
+      skills: formData.skills
+        ? formData.skills.split(",").map((s) => s.trim())
+        : [],
+      isFavourite: false,
+    });
 
     setFormData({
       name: "",
