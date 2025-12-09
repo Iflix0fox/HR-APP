@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import styles from "./Card.module.css";
-import animalEmojis from "../assets/animalEmojis.json";
+import animalEmojis from "../animalEmojis.json";
 
 import DeleteIcon from "@mui/icons-material/Delete";
 import Button from "@mui/material/Button";
