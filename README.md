@@ -8,7 +8,7 @@ The backend was initially developed using JSON Server locally and is now hosted 
 
 ## 🌐 Live Demo (Frontend)
 
-👉 **https://iflix0fox.github.io/HR-APP/**
+👉 **hr-app-lyart.vercel.app**
 
 ---
 
