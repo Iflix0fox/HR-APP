@@ -8,7 +8,7 @@ The backend was initially developed using JSON Server locally and is now hosted 
 
 ## 🌐 Live Demo (Frontend)
 
-👉 **hr-app-lyart.vercel.app**
+👉 **https://hr-app-lyart.vercel.app/**
 
 ---
 
